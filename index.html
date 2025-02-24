@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        <!-- TASK1 -->
+        debugger;
+        let week=prompt("enter a day")
+
+        if( week=="monday")
+        {
+            console.log("start your week strong");
+        } 
+        else if(week=="tuesday")
+        {
+            cosole.log("keep going");
+        }
+        else if(week=="wednesday"){
+            console.log("halfway there");
+        }
+        else if(week=="thursday"){
+            console.log("almost the weekend");
+        }
+        else if(week=="friday"){
+            console.log("happy friday");
+        }
+        else if(week=="saturday"){
+            console.log("enjoy your weekend");
+        }
+        else if(week=="sunday"){
+            console.log("enjoy weekend");
+        }
+    </script>
+     <script>
+      <!-- Task2 -->
+       let lights=prompt("enter the colour of the light")
+       if(lights=="red"){
+        console.log("stop")
+       }
+       else if(lights=="yellow"){
+        console.log("get ready")
+       }
+       else if(lights=="green"){
+        console.log("go")
+       }
+      
+     </script>
+     <script>
+        <!-- TASK3 -->
+         let amount=+prompt("enter an amount : ")
+         if(amount<50){
+            console.log("NO discount");
+         }
+         else if(amount>50 && amount<100){
+            console.log("5% discount");
+         }
+         else if(amount>101 && amount<200){
+            console.log("10%discount");
+         }
+         else if(amount>200){
+            console.log("15% discount");
+         }
+     </script>
+    <script>
+        <!-- TASK4 -->
+        let dish=+prompt("enter your dish");
+        switch(dish){
+            case "Biriyani":console.log(85);
+            break;
+            case "shawarma":console.log(100);
+            break;
+            case "Fried rice":console.log(140);
+            break;
+            case "veg pula":console.log(190);
+            break;
+            default:console.log("invalid")
+        }
+    </script>
+</body>
+</html>
